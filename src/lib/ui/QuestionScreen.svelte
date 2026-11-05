@@ -70,9 +70,8 @@
       </div>
     </div>
 
-    <!-- Отмена — скрывается стилями, когда ответ показан -->
-    <div class="text-center {revealed ? 'opacity-0' : ''}">
-      <Button variant="ghost" onclick={() => game.cancelQuestion()} disabled={revealed}>
+    <div class="text-center">
+      <Button variant="ghost" onclick={() => game.cancelQuestion()}>
         Отмена (вернуться к полю, не закрывая ячейку)
       </Button>
     </div>
